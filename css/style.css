@@ -3,6 +3,13 @@ body {
     background-color: powderblue;
 }
 #menu-icon {
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
+}
+#profile-pic {
+    height: 45px;
+    border-radius: 50%;
+}
+#logo-pic {
+    height:100px;
 }

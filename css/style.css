@@ -1,15 +1,29 @@
+html {
+    height: 100%;
+    min-height: 100%;
+}
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: powderblue;
+    background-color: #ffff66;
 }
-#menu-icon {
-    height: 45px;
-    width: 45px;
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 50px 50px 50px 50px;
+    grid-template-rows: 50px;
+    grid-template-areas: ". gmail images menu_ profile";
 }
-#profile-pic {
-    height: 45px;
+#gmail {
+    grid-area: gmail;
+}
+#images {
+    grid-area: images;
+}
+#menu_ {
+    grid-area: menu_;
+}
+#profile {
+    grid-area: profile;
+}
+#prof-pic {
     border-radius: 50%;
-}
-#logo-pic {
-    height:100px;
 }

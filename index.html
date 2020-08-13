@@ -3,33 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="img/poker.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>fake Google</title>
 </head>
 <body>
-    <div class="navbar">
-        <a href="#" id="gmail">Gmail</a>
-        <a href="#" id="images">Images</a>
-        <a href="#" id="menu_"><img src="img/menu.png" height="50px" width="50px"></a>
-        <a href="#" id="profile"><img id="prof-pic" src="img/bob.jpg" height="50px" width="50px"></a>
-    </div>
-    <div class="main">
-        <a href="#" id="logo"><img src="img/logo-black.png" height="125px"></a>
-        <br>
-        <input type="text" id="search">
-        <br>
-        <button id="search-btn">Google Search</button>
-        <button id="lucky-btn">I'm Feeling Lucky</button>
-        <p>Google offered in: <a href="#">Filipino</a> <a href="#">Cebuano</a></p>
-    </div>
-    <div class="footer">
-        <a href="#" id="ad">Advertising</a>
-        <a href="#" id="business">Business</a>
-        <a href="#" id="about">About</a>
-        <a href="#" id="search-works">How Search works</a>
-        <a href="#" id="privacy">Privacy</a>
-        <a href="#" id="terms">Terms</a>
-        <a href="#" id="settings">Settings</a>
+    <div class="container">
+        <!-- Nav -->
+        <nav class="main-nav">
+            <ul class="menu">
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Images</a></li>
+                <li>
+                    <a href="#">
+                        <img src="img/menu.png" alt="menu" class="menu-icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/bob.jpg" alt="profile picture" class="dp">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Google-search -->
+        <div class="google-search">
+            <img src="img/logo-black.png" alt="Google logo" class="google-logo">
+            <form action="#">
+                <input type="text" class="query">
+                <div class="buttons">
+                    <input type="submit" class="go" value="Google Search">
+                    <input type="submit" class="lucky" value="I'm Feeling Lucky">
+                </div>
+            </form>
+            <p>Google offered in: <a href="#">Filipino</a></p>
+        </div>   
     </div>
 </body>
 </html>

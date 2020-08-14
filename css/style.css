@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: whitesmoke;
+    background: #98FB98;
     color: #000;
     font-size: 15px;
     line-height: 1.5;
@@ -23,7 +23,6 @@ ul {
 
 .container {
     margin: auto;
-    background-color:yellow;
 }
 
 /* Nav */
@@ -102,4 +101,66 @@ ul {
 
 .google-search p a:hover {
     text-decoration: underline;
+}
+
+.google-search form .buttons .go {
+    text-decoration: none;
+    border: none;
+    background-color: dodgerblue;
+    padding: 11px 25px;
+    font-size: 15px;
+    color: white;
+    margin: 10px 10px;
+    border-radius: 4px;
+}
+
+.google-search form .buttons .lucky {
+    text-decoration: none;
+    border: none;
+    background-color: dodgerblue;
+    padding: 11px 25px;
+    font-size: 15px;
+    color: white;
+    margin: 0 10px;
+    border-radius: 4px;
+}
+.google-search form .buttons .go:hover {
+    opacity: 0.8;
+}
+.google-search form .buttons .lucky:hover {
+    opacity: 0.8;
+}
+
+/* Footer */
+footer{
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
+    background-color: #B0C4DE;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer .left-footer {
+    flex: auto;
+    margin-left: 20px;
+}
+footer .right-footer {
+    margin-right: 20px; 
+}
+
+footer ul li {
+    padding: 0 7px;
 }

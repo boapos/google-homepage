@@ -7,7 +7,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #98FB98;
-    color: #000;
+    color: #262626;
     font-size: 15px;
     line-height: 1.5;
 }
@@ -87,16 +87,17 @@ ul {
 }
 
 .google-search form .query {
-    padding: 10px;
+    padding: 12px;
     width: 550px;
     border-radius: 20px;
-    border: 1px solid grey;
+    border: 1px solid #DCDCDC;
     outline: none;
-    background-image: url("img/searchicon.png");
+    background-image: url("./img/menu.png");
+    background-repeat: no-repeat;
 }
 
-.google-search form .query:focus {
-    border: 1px solid black;
+.google-search form .query:hover {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .google-search p a:hover {
